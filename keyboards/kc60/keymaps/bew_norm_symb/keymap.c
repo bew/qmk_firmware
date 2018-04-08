@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------|
    * |     | & | # | " | ' | ~ | ` | - | _ | @ | % | \ |PIP|     |
    * |-----------------------------------------------------------|
-   * |       | ² | < | { | ( | [ |   |Lft|Dwn| Up|Rgt| * |       |
+   * |      | ² | < | { | ( | [ |Lft|Dwn| Up|Rgt|   | * |        |
    * |-----------------------------------------------------------|
    * |        | > | } | ) | ] |   |SPC|   |   |   |   |          |
    * |-----------------------------------------------------------|
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LAYOUT_60_ansi(
       _______,  KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   _______, \
       _______,  FR_AMP,   FR_HASH,  FR_QUOT,  FR_APOS,  FR_TILD,  FR_GRV,   FR_MINS,  FR_UNDS,  FR_AT,    FR_PERC,  FR_BSLS,  FR_PIPE,  _______, \
-      _______,  FR_SUP2,  FR_LESS,  FR_LCBR,  FR_LPRN,  FR_LBRC,  XXXXXXX,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RIGHT, FR_ASTR,     _______, \
+      _______,  FR_SUP2,  FR_LESS,  FR_LCBR,  FR_LPRN,  FR_LBRC,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RIGHT, XXXXXXX,  FR_ASTR,     _______, \
            _______,       FR_GRTR,  FR_RCBR,  FR_RPRN,  FR_RBRC,  XXXXXXX,  KC_SPC,   KC_HOME,  KC_PGDOWN,KC_PGUP,  KC_END,      _______, \
       _______,  _______,  _______,                      _______,                                          _______,  _______,  _______,  _______  \
     ),
